@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>menu</title>
+	<link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+	<style>
+		@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+		html{font-family: 'SF Pro Display', sans-serif;}
+
+		body{margin: 0;}
+
+		.border{
+			border-style: solid;
+			border-width: 1px;
+			border-color: #707070;
+		}
+
+		.container{
+			flex-grow: 1;
+			margin: 0 auto;
+		}
+
+		.box{
+			background-color: red;
+			padding: 0px;
+			display: flex;
+			height: 1040px;
+		}
+
+		.box-sidebar{
+			background-color: white;
+			padding: 0;
+			flex-shrink: 0;
+			width: 120px;
+		}
+		
+		.box-contents{
+			background-color: white;
+			padding: 0px;
+			flex-grow: 1;
+			text-align: right;
+			padding: ;
+			font-weight: bold;
+			font-size: 6rem;
+		}
+
+		section div p{margin: 30px;}
+
+		a{
+			text-decoration: none;
+			color: black;
+		}
+
+</style>
+</head>
+<body>
+	<div class="container">
+		<section class="box">
+			<div class="box-contents">
+				<p><a href="./mainpage.html" target="_self">Home</a></p>
+				<p><a href="./2023awards.html" target="_self">2023 Galaxy Awards</a></p>
+				<p><a href="./2022awards.html" target="_self">2022 Galaxy Awards</a></p>
+				<p><a href="./aboutus.html" target="_self">About us</a></p>
+				<p><a href="./aboutsf.html" target="_self">About SF</a></p>
+				<p><a href="./event.html" target="_self">Event</a></p>
+			</div>
+			<aside class="box-sidebar">
+				<a href="./menu.html">
+				<img style="width: 60%; display: block; margin: 0 auto; padding-top: 940px;" src="./menuicon.jpg">
+				</a>
+			</aside>
+		</section>
+	</div>
+</body>
+</html>
